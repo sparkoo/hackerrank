@@ -10,23 +10,6 @@ import static org.testng.Assert.assertEquals;
 
 public class BST {
 
-    @DataProvider
-    public Object[][] trees() {
-        return new Object[][]{
-                {validTree(), true},
-                {wrongTopTree(), false},
-                {wrongBottomTree(), false},
-                {sameValueTree(), false},
-                {wrongInnerValueTree(), false}
-        };
-    }
-
-    @Test(dataProvider = "trees")
-    public static void test(Node root, boolean isBST) {
-        root.prefix();
-        assertEquals(new BST().checkBST(root), isBST);
-    }
-
     boolean checkBST(Node root) {
         List<Integer> prefixedTree = new ArrayList<>();
         prefix(root, prefixedTree);
@@ -78,6 +61,23 @@ public class BST {
         }
     }
 
+    @DataProvider
+    public Object[][] trees() {
+        return new Object[][]{
+                {validTree(), true},
+                {wrongTopTree(), false},
+                {wrongBottomTree(), false},
+                {sameValueTree(), false},
+                {wrongInnerValueTree(), false}
+        };
+    }
+
+    @Test(dataProvider = "trees")
+    public static void test(Node root, boolean isBST) {
+        root.prefix();
+        assertEquals(new BST().checkBST(root), isBST);
+    }
+    
     private static Node validTree() {
         List<Node> nodes = createNodes(7);
         nodes.get(3).left = nodes.get(1);
