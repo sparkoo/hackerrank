@@ -21,6 +21,7 @@
         <module>strings_making_anagrams</module>
         <module>tries_contacts</module>
         <module>hash_tables_ransom_note</module>
+        <module>sorting_bubble_sort</module>
     </modules>
 
     <build>
