@@ -17,12 +17,13 @@
     </properties>
 
     <modules>
-        <module>trees_is_this_a_binary_search_tree</module>
-        <module>strings_making_anagrams</module>
-        <module>tries_contacts</module>
-        <module>hash_tables_ransom_note</module>
-        <module>sorting_bubble_sort</module>
-        <module>stacks_balanced_brackets</module>
+        <module>cracking_the_coding_interview/trees_is_this_a_binary_search_tree</module>
+        <module>cracking_the_coding_interview/strings_making_anagrams</module>
+        <module>cracking_the_coding_interview/tries_contacts</module>
+        <module>cracking_the_coding_interview/hash_tables_ransom_note</module>
+        <module>cracking_the_coding_interview/sorting_bubble_sort</module>
+        <module>cracking_the_coding_interview/stacks_balanced_brackets</module>
+        <module>cracking_the_coding_interview/arrays_left_rotation</module>
     </modules>
 
     <build>

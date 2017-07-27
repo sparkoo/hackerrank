@@ -6,12 +6,9 @@
         <artifactId>hackerrank</artifactId>
         <groupId>cz.sparko.hackerrank</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cz.sparko.hackerrank</groupId>
-    <artifactId>trees_is_this_a_binary_search_tree</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-
+    <artifactId>tries_contacts</artifactId>
 </project>

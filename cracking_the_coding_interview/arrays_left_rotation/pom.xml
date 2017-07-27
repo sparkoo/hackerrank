@@ -6,12 +6,9 @@
         <artifactId>hackerrank</artifactId>
         <groupId>cz.sparko.hackerrank</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cz.sparko.hackerrank</groupId>
-    <artifactId>strings_making_anagrams</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-
+    <artifactId>arrays_left_rotation</artifactId>
 </project>

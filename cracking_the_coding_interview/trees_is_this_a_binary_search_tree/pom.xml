@@ -6,10 +6,9 @@
         <artifactId>hackerrank</artifactId>
         <groupId>cz.sparko.hackerrank</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sorting_bubble_sort</artifactId>
-
-
+    <artifactId>trees_is_this_a_binary_search_tree</artifactId>
 </project>
