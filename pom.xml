@@ -20,6 +20,7 @@
         <module>trees_is_this_a_binary_search_tree</module>
         <module>strings_making_anagrams</module>
         <module>tries_contacts</module>
+        <module>hash_tables_ransom_note</module>
     </modules>
 
     <build>
