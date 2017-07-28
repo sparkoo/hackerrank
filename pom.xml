@@ -24,6 +24,7 @@
         <module>cracking_the_coding_interview/sorting_bubble_sort</module>
         <module>cracking_the_coding_interview/stacks_balanced_brackets</module>
         <module>cracking_the_coding_interview/arrays_left_rotation</module>
+        <module>cracking_the_coding_interview/linked_lists_detect_a_cycle</module>
     </modules>
 
     <build>
