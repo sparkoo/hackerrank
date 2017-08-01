@@ -26,6 +26,7 @@
         <module>cracking_the_coding_interview/arrays_left_rotation</module>
         <module>cracking_the_coding_interview/linked_lists_detect_a_cycle</module>
         <module>cracking_the_coding_interview/queues_a_tale_of_two_stacks</module>
+        <module>cracking_the_coding_interview/heaps_find_the_running_median</module>
     </modules>
 
     <build>
